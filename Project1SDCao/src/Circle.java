@@ -28,7 +28,7 @@ class Circle extends Shape {
 	// This method will calculate the surface of the circle. (PI*Radius*Radius)
 	// Radius will be half of the height/width. Please note that height and width are equal for circle 
 	private double calculateSurface(int height, int width) {
-		int radius = width/2;
+		double radius = (double)(width)/2.0;
 		double area = PI*radius*radius;
 		return area;
 	}
