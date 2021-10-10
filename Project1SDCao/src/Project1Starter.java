@@ -109,7 +109,7 @@ public class Project1Starter {
     
     // This class will help in calling paint() and calling show() of DisplayShape class
     @SuppressWarnings("serial")
-	public class RectsPanel extends JPanel {
+	private class RectsPanel extends JPanel {
     	protected void paintComponent(Graphics g) {
             super.paintComponent(g);
             DisplayShape displayShape = new DisplayShape();
